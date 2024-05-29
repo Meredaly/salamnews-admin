@@ -1,0 +1,40 @@
+@use 'sass:math';
+// Подключение миксинов
+@import 'mixins';
+
+// Подключить если есть локальные файлы шрифтов
+@import '@/assets/styles/fonts.scss';
+
+// Шрифт по умолчанию ================================================================================================================
+$fontFamily: Open Sans;
+$fontSize: rem(14); // где 14(px) - размер шрифта по умолчанию из макета
+
+//Основные цвета
+$mainColor: var(--text);
+
+// Обнуление и обшие параметры =======================================================================================================
+@import 'null';
+@import 'variables';
+
+body {
+}
+#app {
+  height: 100%;
+  width: 100%;
+}
+
+[class*='__container'] {
+  @if ($maxWidthContainer > 0) {
+    max-width: rem($maxWidthContainer);
+    box-sizing: content-box;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @if ($containerPadding > 0) {
+    padding-left: rem(math.div($containerPadding, 2));
+    padding-right: rem(math.div($containerPadding, 2));
+  }
+}
+
+@import 'common';

@@ -1,0 +1,184 @@
+@font-face {
+  font-family: Open Sans;
+  font-display: swap;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url('../fonts/OpenSans-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Open Sans;
+  font-display: swap;
+  src: local('Open Sans Light Italic'), local('OpenSans-LightItalic'),
+    url('../fonts/OpenSans-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Open Sans;
+  font-display: swap;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url('../fonts/OpenSans-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: Open Sans;
+  font-display: swap;
+  src: local('Open Sans Italic'), local('OpenSans-Italic'), url('../fonts/OpenSans-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Open Sans;
+  font-display: swap;
+  src: local('Open Sans Medium'), local('OpenSans-Medium'), url('../fonts/OpenSans-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Open Sans;
+  font-display: swap;
+  src: local('Open Sans Medium Italic'), local('OpenSans-MediumItalic'),
+    url('../fonts/OpenSans-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Open Sans;
+  font-display: swap;
+  src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url('../fonts/OpenSans-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Open Sans;
+  font-display: swap;
+  src: local('Open Sans SemiBold Italic'), local('OpenSans-SemiBoldItalic'),
+    url('../fonts/OpenSans-SemiBoldItalic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Open Sans;
+  font-display: swap;
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url('../fonts/OpenSans-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Open Sans;
+  font-display: swap;
+  src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'),
+    url('../fonts/OpenSans-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Open Sans;
+  font-display: swap;
+  src: local('Open Sans ExtraBold'), local('OpenSans-ExtraBold'),
+    url('../fonts/OpenSans-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Open Sans;
+  font-display: swap;
+  src: local('Open Sans ExtraBold Italic'), local('OpenSans-ExtraBoldItalic'),
+    url('../fonts/OpenSans-ExtraBoldItalic.ttf') format('truetype');
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Vollkorn;
+  font-display: swap;
+  src: local('Vollkorn Regular'), local('Vollkorn-Regular'), url('../fonts/Vollkorn-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: Vollkorn;
+  font-display: swap;
+  src: local('Vollkorn Italic'), local('Vollkorn-Italic'), url('../fonts/Vollkorn-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Vollkorn;
+  font-display: swap;
+  src: local('Vollkorn Medium'), local('Vollkorn-Medium'), url('../fonts/Vollkorn-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Vollkorn;
+  font-display: swap;
+  src: local('Vollkorn Medium Italic'), local('Vollkorn-MediumItalic'),
+    url('../fonts/Vollkorn-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Vollkorn;
+  font-display: swap;
+  src: local('Vollkorn SemiBold'), local('Vollkorn-SemiBold'), url('../fonts/Vollkorn-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Vollkorn;
+  font-display: swap;
+  src: local('Vollkorn SemiBold Italic'), local('Vollkorn-SemiBoldItalic'),
+    url('../fonts/Vollkorn-SemiBoldItalic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Vollkorn;
+  font-display: swap;
+  src: local('Vollkorn Bold'), local('Vollkorn-Bold'), url('../fonts/Vollkorn-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Vollkorn;
+  font-display: swap;
+  src: local('Vollkorn Bold Italic'), local('Vollkorn-BoldItalic'),
+    url('../fonts/Vollkorn-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Vollkorn;
+  font-display: swap;
+  src: local('Vollkorn ExtraBold'), local('Vollkorn-ExtraBold'),
+    url('../fonts/Vollkorn-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Vollkorn;
+  font-display: swap;
+  src: local('Vollkorn ExtraBold Italic'), local('Vollkorn-ExtraBoldItalic'),
+    url('../fonts/Vollkorn-ExtraBoldItalic.ttf') format('truetype');
+  font-weight: 800;
+  font-style: italic;
+}
